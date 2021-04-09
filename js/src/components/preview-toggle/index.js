@@ -226,7 +226,7 @@ export default compose( [
 
 		return {
 			postId: getCurrentPostId(),
-			status: getEditedPostAttribute( 'status' ),
+			status: getEditedPostAttribute( 'custom_status' ),
 			isViewable: get( postType, [ 'viewable' ], false ),
 		};
 	} ),
