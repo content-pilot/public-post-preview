@@ -223,10 +223,11 @@ export default compose( [
 			'core/editor'
 		);
 		const postType = getPostType( getEditedPostAttribute( 'type' ) );
+		const postStatus = getEditedPostAttribute( 'custom_status' ) ?? getEditedPostAttribute( 'status' );
 
 		return {
 			postId: getCurrentPostId(),
-			status: getEditedPostAttribute( 'custom_status' ),
+			status: postStatus,
 			isViewable: get( postType, [ 'viewable' ], false ),
 		};
 	} ),

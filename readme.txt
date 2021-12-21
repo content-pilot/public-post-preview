@@ -73,6 +73,9 @@ Or use the [Public Post Preview Configurator](https://wordpress.org/plugins/publ
 
 == Change Log ==
 
+= 2.9.4 (2021-12-21): =
+* Compatibility with WP Statuses.
+
 = 2.9.3 (2021-03-12): =
 * Compatibility with WordPress 5.7.
 * Create a fresh preview URL when enabling public preview.
